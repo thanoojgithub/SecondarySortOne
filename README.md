@@ -48,7 +48,7 @@ $ cat temparature.txt
 2002,08,23,70
 $ cd ..
 
-$ thanooj jar SecondarySortOne-1.0.jar com.SecondarySortDriver /home/thanooj/work/input/temparature.txt /home/thanooj/work/output/
+$ hadoop jar SecondarySortOne-1.0.jar com.SecondarySortDriver /home/thanooj/work/input/temparature.txt /home/thanooj/work/output/
 
 $ cat output/part-r-00000
 2001 11 04      40
